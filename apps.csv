@@ -1,0 +1,43 @@
+# --- IDEs & EDITORS ---
+VS Code (Official):Microsoft's Visual Studio Code:snap install code --classic
+Sublime Text:Lightweight Text Editor:snap install sublime-text --classic
+IntelliJ IDEA Community:Java Enterprise IDE:snap install intellij-idea-community --classic
+PyCharm Community:Python IDE for AI & Data Science:snap install pycharm-community --classic
+Android Studio:Full Mobile Development Suite (1.5GB):snap install android-studio --classic
+Atom:Hackable Text Editor:snap install atom --classic
+
+# --- DEV TOOLS & RUNTIMES ---
+Anaconda:Python Data Science Platform (4GB):wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh -O /tmp/installer.sh && bash /tmp/installer.sh -b -p $HOME/anaconda3
+Unity Hub:Game Engine Manager:sh -c 'echo "deb https://hub.unity3d.com/linux/repos/deb stable main" > /etc/apt/sources.list.d/unityhub.list' && wget -qO - https://hub.unity3d.com/linux/keys/public | gpg --dearmor -o /etc/apt/trusted.gpg.d/unityhub.gpg && apt update && apt install -y unityhub
+Flutter SDK:Google UI Toolkit:snap install flutter --classic
+Godot Engine:Open Source Game Engine:snap install godot --classic
+Arduino IDE:IoT & Electronics Development:snap install arduino
+
+# --- DATABASE & API ---
+Postman:API Development & Testing:snap install postman
+DBeaver CE:Universal Database Manager (SQL):snap install dbeaver-ce
+MongoDB Compass:GUI for MongoDB:snap install mongodb-compass
+Insomnia:Rest Client for GraphQL/REST:snap install insomnia
+
+# --- DEVOPS & CLOUD ---
+Docker Desktop:Container Management GUI:apt update && apt install -y gnome-terminal && curl -fsSL https://get.docker.com | sh
+Kubectl:Kubernetes CLI:snap install kubectl --classic
+Helm:Kubernetes Package Manager:snap install helm --classic
+AWS CLI:Amazon Web Services Interface:snap install aws-cli --classic
+Heroku CLI:Heroku Cloud Interface:snap install heroku --classic
+
+# --- BROWSERS ---
+Google Chrome:Standard Web Browser:wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm google-chrome-stable_current_amd64.deb
+Brave Browser:Privacy Focused Web Browser:snap install brave
+Firefox Developer Edition:Web Dev Focused Browser:snap install firefox
+
+# --- COMMUNICATION & TOOLS ---
+Slack:Team Communication:snap install slack
+Discord:Chat for Communities:snap install discord
+Spotify:Music Streaming:snap install spotify
+Zoom:Video Conferencing:snap install zoom-client
+Obsidian:Knowledge Base & Note Taking:snap install obsidian --classic
+VLC Media Player:Universal Media Player:snap install vlc
+FileZilla:FTP Client for Server Management:apt install -y filezilla
+GIMP:Image Manipulation Program:snap install gimp
+Blender:3D Creation Suite:snap install blender --classic
